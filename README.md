@@ -1,8 +1,9 @@
-# Online/Offline Budget Trackers
+# fitness-tracker
 
 ## Description :octocat:
 
-Use this app to track your workouts. It was built using mongoose to interact with mogodb.
+Use this app to track your budget. It was built to be used online (mongodb) and offline (indexeddb). When there is no connection, data
+will be saved locally. When network back online, data is synchronized with network database.
 
 ![Screenshot](screenshot.png)
 
@@ -21,7 +22,7 @@ Use this app to track your workouts. It was built using mongoose to interact wit
 ## Installation
 
 Open git bash, or terminal, and clone the git repo in a new local folder. 
-Create a database called 'workout' in mongodb, then run seeders/seed.js to populate the database with some testing records.
+Create a database called 'budget' in mongodb.
 
 ## Usage
 
@@ -43,6 +44,6 @@ No test cases were created, but you can simply manipulate some data via app, and
 
 ## Questions
 
-Is it easy to make changes, like adding additional info to the workouts ? Yes, the project is well documented.
+Is it easy to make changes, like adding additional info to the budget ? Yes, the project is well documented.
 
 Send me an e-mail <henriqueph@hotmail.com>
